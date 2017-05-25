@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\goncha1\Desktop\Personal Designs\Single ended Amp with LPF.sch</source>
+    <date>5/25/2017 10:27:28 AM</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Piaggio Example Design</title>
+        <company>N/A</company>
+        <rev/>
+        <date/>
+        <source>Single ended Amp with LPF.sch</source>
+        <comment number="1" value="Capture by Alex Goncharov"/>
+        <comment number="2" value="N/A"/>
+        <comment number="3" value="N/A"/>
+        <comment number="4" value="N/A"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM321</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm321.pdf</datasheet>
+      <fields>
+        <field name="Description">IC OPAMP GP 1MHZ SOT23-5</field>
+        <field name="Mfg">Texas Instruments</field>
+        <field name="Mfg P/N">LM321MF/NOPB</field>
+        <field name="Supplier #1">Digikey</field>
+        <field name="Supplier #1 P/N">LM321MF/NOPBCT-ND</field>
+        <field name="Type">Op-Amp</field>
+        <field name="Mount">SMD</field>
+        <field name="Package">SOT-23-5</field>
+      </fields>
+      <libsource lib="linear" part="LM321"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59263712</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>3k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Description">RES SMD 3K 5% 1/16W 0402</field>
+        <field name="Mfg">Yageo</field>
+        <field name="Mfg P/N">RC0402JR-073KL</field>
+        <field name="Supplier #1">Digikey</field>
+        <field name="Supplier #1 P/N">311-3.0KJRCT-ND</field>
+        <field name="Tolerance">5%</field>
+        <field name="Mount">SMD</field>
+        <field name="Package">0402</field>
+        <field name="Type">Thick Film</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592637C9</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <datasheet>http://datasheets.avx.com/cx5r.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 10V X5R 0402</field>
+        <field name="Mfg">AVX</field>
+        <field name="Mfg P/N">0402ZD105KAT2A</field>
+        <field name="Supplier #1">Digikey</field>
+        <field name="Supplier #1 P/N">478-4596-1-ND</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">10V</field>
+        <field name="Package">0402</field>
+        <field name="Mount">SMD</field>
+        <field name="Type">MLCC</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59263892</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>2k</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3214W</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/3214.pdf</datasheet>
+      <fields>
+        <field name="Description">2k-ohm 0.25W, 1/4W SMD Trimmer</field>
+        <field name="Mfg">Bourns</field>
+        <field name="Mfg P/N">3214W-1-202E</field>
+        <field name="Supplier #1">Digikey</field>
+        <field name="Supplier #1 P/N">3214W-202ECT-ND</field>
+        <field name="Tolerance">10%</field>
+        <field name="Mount">SMD</field>
+        <field name="Type">Trim</field>
+        <field name="Package">3214W</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926394A</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>2k</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3214W</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/3214.pdf</datasheet>
+      <fields>
+        <field name="Description">2k-ohm 0.25W, 1/4W SMD Trimmer</field>
+        <field name="Mfg">Bourns</field>
+        <field name="Mfg P/N">3214W-1-202E</field>
+        <field name="Supplier #1">Digikey</field>
+        <field name="Supplier #1 P/N">3214W-202ECT-ND</field>
+        <field name="Tolerance">10%</field>
+        <field name="Mount">SMD</field>
+        <field name="Type">Trim</field>
+        <field name="Package">3214W</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926D0E3</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_01X02</value>
+      <footprint>Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight</footprint>
+      <datasheet>http://www.molex.com/pdm_docs/sd/022272021_sd.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN HEADER 2POS .100 VERT TIN</field>
+        <field name="Mfg">Molex</field>
+        <field name="Mfg P/N">0022272021</field>
+        <field name="Supplier #1">Digikey</field>
+        <field name="Supplier #1 P/N">WM4111-ND</field>
+        <field name="Positions">2</field>
+        <field name="Mount">Thru-hole</field>
+        <field name="Type">2pos Male Header</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926D3CA</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X02</value>
+      <footprint>Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight</footprint>
+      <datasheet>http://www.molex.com/pdm_docs/sd/022272021_sd.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN HEADER 2POS .100 VERT TIN</field>
+        <field name="Mfg">Molex</field>
+        <field name="Mfg P/N">0022272021</field>
+        <field name="Supplier #1">Digikey</field>
+        <field name="Supplier #1 P/N">WM4111-ND</field>
+        <field name="Positions">2</field>
+        <field name="Mount">Thru-hole</field>
+        <field name="Type">2pos Male Header</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926D65B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01X02</value>
+      <footprint>Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight</footprint>
+      <datasheet>http://www.molex.com/pdm_docs/sd/022272021_sd.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN HEADER 2POS .100 VERT TIN</field>
+        <field name="Mfg">Molex</field>
+        <field name="Mfg P/N">0022272021</field>
+        <field name="Supplier #1">Digikey</field>
+        <field name="Supplier #1 P/N">WM4111-ND</field>
+        <field name="Positions">2</field>
+        <field name="Mount">Thru-hole</field>
+        <field name="Type">2pos Male Header</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926D929</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <datasheet>http://datasheets.avx.com/cx5r.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 10V X5R 0402</field>
+        <field name="Mfg">AVX</field>
+        <field name="Mfg P/N">0402ZD105KAT2A</field>
+        <field name="Supplier #1">Digikey</field>
+        <field name="Supplier #1 P/N">478-4596-1-ND</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">10V</field>
+        <field name="Package">0402</field>
+        <field name="Mount">SMD</field>
+        <field name="Type">MLCC</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926FCB8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM321">
+      <description>Low Power Single Operational Amplifier</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm321.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM321</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmeter</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library\linear.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(RV2-Pad1)">
+      <node ref="RV2" pin="1"/>
+    </net>
+    <net code="2" name="/Vin">
+      <node ref="J2" pin="1"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="U1" pin="5"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="4" name="GNDA">
+      <node ref="U1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R1-Pad2)">
+      <node ref="RV2" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="6" name="/Vout">
+      <node ref="R1" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="7" name="Net-(RV1-Pad1)">
+      <node ref="RV1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C1-Pad1)">
+      <node ref="RV1" pin="3"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+  </nets>
+</export>
